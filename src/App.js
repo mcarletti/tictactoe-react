@@ -1,6 +1,7 @@
 import "./App.css";
 import "./style.css";
 import React, { useState } from "react"
+import logo from "./images/github-mark-white.png"
 
 function Title()
 {
@@ -87,6 +88,7 @@ function App() {
         <Title />
         <Grid />
         <Copyright />
+        <a href="https://github.com/mcarletti/tictactoe-react"><img src={logo} className="github-logo" alt="github-logo" /></a>
       </header>
     </div>
   );

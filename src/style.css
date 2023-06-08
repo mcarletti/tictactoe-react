@@ -38,3 +38,11 @@ a
     text-align: center;
     margin-top: 20px;
 }
+
+.github-logo
+{
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
